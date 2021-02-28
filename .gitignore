@@ -1,1 +1,9 @@
+# Virtualenv
 venv
+
+# Runtime data
+.mypy_cache
+.pytest_cache
+.coverage
+htmlcov
+*.pyc
