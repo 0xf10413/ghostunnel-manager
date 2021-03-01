@@ -5,5 +5,6 @@ Evolved manager for ghostunnel.
 Can switch between several targets based on a health check.
 
 TODO:
-* tests
-* doc
+* Health check
+* Global manager
+* Dump stdout from time to time
