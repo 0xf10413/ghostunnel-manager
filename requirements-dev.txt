@@ -3,3 +3,5 @@ pylint
 mypy
 pytest
 pytest-coverage
+pytest-httpserver==1.0.0rc1
+pytest-mock

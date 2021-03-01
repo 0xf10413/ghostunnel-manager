@@ -1,0 +1,11 @@
+[ca]
+keyUsage = critical, keyCertSign
+basicConstraints = critical, CA:TRUE, pathlen:0
+
+[server]
+extendedKeyUsage = serverAuth
+subjectAltName = DNS:localhost, IP:127.0.0.1
+
+[client]
+extendedKeyUsage = clientAuth
+subjectAltName = URI:spiffe://some/string

@@ -5,7 +5,9 @@ Specialized tool over ghostunnel to:
 * Run health checks on that target (through the proxy)
 * Kill the proxy and switch over to the next target server in case of issue
 """
-
+from ghostmanager.proxy_target_list import ProxyTargetList
+import subprocess
+import time
 import logging
 
 # Install custom logger format

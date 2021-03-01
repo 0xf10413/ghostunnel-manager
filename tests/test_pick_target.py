@@ -61,3 +61,9 @@ def test_pick_targets_errors(tmp_path):
         targets_list.pick_new_target()
 
     assert e.value.args == ("Targets file is empty",)
+
+def test_proxy_target():
+    """
+    Some generic tests on ProxyTarget class
+    """
+    assert ProxyTarget(host="aaa", port=456).to_hostport() == "aaa:456"

@@ -6,3 +6,4 @@ Can switch between several targets based on a health check.
 
 TODO:
 * tests
+* doc

@@ -14,6 +14,9 @@ class ProxyTarget:
     host: str
     port: int
 
+    def to_hostport(self) -> str:
+        return f"{self.host}:{self.port}"
+
 # TODO: make iterable ?
 class ProxyTargetList:
     """
